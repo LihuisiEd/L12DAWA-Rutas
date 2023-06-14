@@ -1,0 +1,62 @@
+.navbar {
+    background: linear-gradient(90deg, rgba(43, 33, 226, 1) 0%, rgba(0, 164, 255, 1) 100%);
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #1e90ff;
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+
+.navbar-nav .nav-item:last-child .nav-link i {
+    margin-right: 5px;
+}
+
+
+.hr-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        margin-left: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+        border-top: 1px solid #e9ecef;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 8px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%280, 0, 0, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+}

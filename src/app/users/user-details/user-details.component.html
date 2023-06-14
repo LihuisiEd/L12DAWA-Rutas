@@ -1,0 +1,25 @@
+<div class="container my-4">
+    <h1 class="nav-title my-4">Detalles de usuario</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <div *ngIf="user" class="user-details">
+                <div class="user-info">
+                    <img [src]="user.imageUrl" alt="Imagen de usuario" class="user-image">
+                    <div class="user-text">
+                        <h2 class="my-4">{{ user.name }}</h2>
+                        <p>{{ user.email }}</p>
+                        <p>{{ user.phone }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <h3>Posts del usuario</h3>
+            <div class="d-flex flex-wrap">
+                <div class="post-thumbnail"></div>
+                <div class="post-thumbnail"></div>
+                <div class="post-thumbnail"></div>
+            </div>
+        </div>
+    </div>
+</div>

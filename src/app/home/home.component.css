@@ -1,0 +1,33 @@
+
+h1,
+h5 {
+    color: #00bdff;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #ab72fa;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00bdff;
+}
+
+.card {
+    background-color: #00bdff;
+    color: #fff;
+    border: none;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-img-top {
+    transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}

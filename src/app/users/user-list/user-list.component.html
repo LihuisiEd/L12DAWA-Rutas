@@ -1,0 +1,17 @@
+<div class="container my-4">
+    <h1 class="nav-title my-4">Lista de usuarios!</h1>
+    <ul class="list-group">
+      <div *ngFor="let user of users" class="list-group-item">
+        <li class="d-flex justify-content-between align-items-center">
+          <div class="user-info">
+            <img src="{{ user.imageUrl }}" alt="Imagen de usuario" class="user-image">
+            <span class="user-name">{{ user.name }}</span>
+          </div>
+          <a class="btn btn-primary" [routerLink]="['/users', user.id]">
+            <i class="fas fa-info-circle"></i>
+          </a>
+        </li>
+      </div>
+    </ul>
+  </div>
+  

@@ -1,0 +1,19 @@
+<div class="container my-4">
+    <div class="post-details">
+        <div class="post-info">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.descripcion }}</p>
+        </div>
+        <div class="post-image">
+            <img [src]="post.imageUrl" alt="Imagen del post" class="post-img">
+        </div>
+        <div class="tags-container">
+            <div [ngClass]="{'overflow-x': post.tags.length > 4}">
+                <div class="d-flex flex-wrap">
+                    <span class="chip" *ngFor="let tag of post.tags">{{ tag }}</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

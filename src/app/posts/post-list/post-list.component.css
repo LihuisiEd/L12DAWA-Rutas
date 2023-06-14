@@ -1,0 +1,64 @@
+.post-thumbnail {
+    background-color: rgb(165, 52, 240);
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .post-thumbnail {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .post-thumbnail {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .post-thumbnail {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+.post-title {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.imagePost {
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .imagePost {
+        flex: 0 0 33.33%;
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .imagePost {
+        flex: 0 0 50%;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .imagePost {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+}
+
+h1,h5,
+.nav-title {
+    color: #00bdff;
+}

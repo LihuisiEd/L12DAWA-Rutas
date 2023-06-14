@@ -1,0 +1,9 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+button.btn-primary:hover {
+    background-color: #007bff;
+}
